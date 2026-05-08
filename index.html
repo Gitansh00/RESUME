@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gitansh Bhange | Full Stack Developer</title>
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@200;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-text">GB</div>
+    </div>
+
+    <!-- Pulsing ambient background blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Custom Cursor -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo serif">GB</div>
+        <div class="nav-right">
+            <a href="https://github.com/Gitansh00" target="_blank" class="nav-link">VIEW GITHUB</a>
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fullscreen Menu Overlay -->
+    <div class="menu-overlay">
+        <div class="menu-content">
+            <a href="#home" class="menu-link serif">HOME</a>
+            <a href="#projects" class="menu-link serif">WORK</a>
+            <a href="#contact" class="menu-link serif">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <!-- Hero Section -->
+            <section id="home" class="hero bg-dark text-light section-pad relative">
+                <div class="hero-content">
+                    <div class="hero-name">GITANSH<br>BHANGE</div>
+                </div>
+                <div class="hero-subtitle">Full Stack Developer for the Modern Web</div>
+                <div class="scroll-down">
+                    <span class="scroll-indicator">SCROLL DOWN</span>
+                </div>
+            </section>
+
+            <!-- About Section (Light) -->
+            <section id="about" class="about-section">
+                <p class="about-text">
+                    As an engineering student, I'm passionate about building full stack web applications and
+                    intelligent Python systems. I work with discipline, curiosity, and precision — crafting products
+                    that are both functional and beautiful. From frontend interfaces to backend APIs to AI/ML
+                    experiments, I bring ideas to life with clean code.
+                </p>
+                <div class="about-statement">GITHUB FIRST. ALWAYS.</div>
+            </section>
+
+            <!-- Skills Section (Dark, Accordion) -->
+            <section id="skills" class="skills-section">
+                <div class="skills-inner">
+                    <!-- Skill 1 -->
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-num">01</span>
+                            <h3 class="skill-title">FULL STACK WEB DEVELOPMENT :<br>FROM PIXEL-PERFECT UI TO APIS</h3>
+                            <span class="skill-arrow">→</span>
+                        </div>
+                        <div class="skill-body">
+                            <p>Building responsive, animated websites end-to-end. HTML, CSS, JavaScript on the frontend. Node.js + Express on the backend. Bringing ideas to the web.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill 2 -->
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-num">02</span>
+                            <h3 class="skill-title">PYTHON & FLASK :<br>INTELLIGENT SYSTEMS</h3>
+                            <span class="skill-arrow">→</span>
+                        </div>
+                        <div class="skill-body">
+                            <p>Writing clean Python scripts, web apps, and automation tools. Flask for backend web apps. OpenWeatherMap API integrations. Data processing and AI/ML experiments.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 3 -->
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-num">03</span>
+                            <h3 class="skill-title">C++ & OOP :<br>STRONG FOUNDATIONS</h3>
+                            <span class="skill-arrow">→</span>
+                        </div>
+                        <div class="skill-body">
+                            <p>Strong foundation in Object-Oriented Programming. Built console-based management systems with file persistence, class hierarchies, and data management.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 4 -->
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-num">04</span>
+                            <h3 class="skill-title">BACKEND & APIS :<br>CONNECTING THE DOTS</h3>
+                            <span class="skill-arrow">→</span>
+                        </div>
+                        <div class="skill-body">
+                            <p>Node.js/Express servers, REST APIs, Nodemailer for email handling, Multer for file uploads. Connecting frontends to real data smoothly.</p>
+                        </div>
+                    </div>
+
+                    <!-- Skill 5 -->
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-num">05</span>
+                            <h3 class="skill-title">AI / ML ENTHUSIAST :<br>EXPLORING THE FUTURE</h3>
+                            <span class="skill-arrow">→</span>
+                        </div>
+                        <div class="skill-body">
+                            <p>Exploring machine learning concepts, model integrations, and building AI-powered features into real projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+           
+            <!-- Projects Section -->
+            <section id="projects" class="projects-section relative section-reveal">
+                <div class="projects-label">
+                    <span class="label-text">SELECTED PROJECTS</span>
+                </div>
+
+                <div class="projects-grid mt-4 relative z-10">
+                    <!-- Project 1 -->
+                    <div class="proj-card" data-index="0">
+                        <canvas class="card-canvas"></canvas>
+                        <div class="card-content">
+                            <h3>RETOUCHIFY</h3>
+                            <p>Full stack photo editing service.</p>
+                            <a href="https://retouchify.vercel.app/" target="_blank" class="card-link">VIEW PROJECT →</a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="proj-card" data-index="1">
+                        <canvas class="card-canvas"></canvas>
+                        <div class="card-content">
+                            <h3>SKYCAST</h3>
+                            <p>Flask + OpenWeatherMap API app.</p>
+                            <a href="https://skycaster.vercel.app/" target="_blank" class="card-link">VIEW PROJECT →</a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="proj-card" data-index="2">
+                        <canvas class="card-canvas"></canvas>
+                        <div class="card-content">
+                            <h3>HOTEL MGMT</h3>
+                            <p>C++ OOP console app with file persistence.</p>
+                            <a href="https://github.com/Gitansh00" target="_blank" class="card-link">VIEW GITHUB →</a>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="proj-card" data-index="3">
+                        <canvas class="card-canvas"></canvas>
+                        <div class="card-content">
+                            <h3>BANK MGMT</h3>
+                            <p>C++ banking app demonstrating data management.</p>
+                            <a href="https://github.com/Gitansh00" target="_blank" class="card-link">VIEW GITHUB →</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section (Dark) -->
+            <section id="contact" class="contact-section bg-dark text-light section-pad flex-row section-reveal">
+                <div class="contact-left">
+                    <h2 class="contact-title serif glass-text-light">LET'S TALK<br>ABOUT YOUR<br>FUTURE</h2>
+                    <div class="contact-info mt-4">
+                        <p class="mb-1">CONTACT</p>
+                        <a href="mailto:gitanshbhange@email.com" class="contact-link">gitanshbhange@email.com</a>
+                        <div class="social-links mt-4">
+                            <a href="https://www.linkedin.com/in/gitansh-bhange-a4ba05295" target="_blank">LINKEDIN</a>
+                            <a href="https://github.com/Gitansh00" target="_blank">GITHUB</a>
+                            <a href="https://instagram.com/gitansh_b_" target="_blank">INSTAGRAM</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-form-container">
+                        <form class="minimal-form" id="contactForm" onsubmit="handleContactSubmit(event)">
+                            <div class="form-row">
+                                <input type="text" id="cf-firstName" placeholder="First Name" required>
+                                <input type="text" id="cf-lastName"  placeholder="Last Name"  required>
+                            </div>
+                            <input type="email" id="cf-email" placeholder="Email Address" required>
+                            <select id="cf-subject" required>
+                                <option value="" disabled selected>Subject / Interest</option>
+                                <option value="Collaboration">Collaboration</option>
+                                <option value="Internship">Internship</option>
+                                <option value="Freelance">Freelance</option>
+                                <option value="Just saying hi">Just saying hi</option>
+                            </select>
+                            <textarea id="cf-message" placeholder="Message" rows="4" required></textarea>
+                            <button type="submit" id="cf-submit" class="submit-btn mt-2">SEND MESSAGE →</button>
+                        </form>
+                        <!-- Toast -->
+                        <div id="cf-toast" style="
+                            display:none;
+                            margin-top:16px;
+                            padding:12px 20px;
+                            border-radius:8px;
+                            font-size:0.82rem;
+                            letter-spacing:0.08em;
+                            text-align:center;
+                            transition:opacity 0.4s;
+                        "></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer bg-dark text-light flex-row align-center">
+                <div class="footer-logo serif">GB</div>
+                <div class="footer-copy">
+                    <p>&copy; 2026 Gitansh Bhange. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                </div>
+            </footer>
+
+        </div>
+    </main>
+
+    <!-- Scripts: GSAP, Lenis & Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+    // ── Contact Form ──────────────────────────────────────────────────────
+    // Change this to your deployed backend URL when you go live
+    const CONTACT_API = 'http://localhost:3000/api/contact';
+
+    function showToast(msg, ok) {
+        const t = document.getElementById('cf-toast');
+        t.textContent = msg;
+        t.style.display = 'block';
+        t.style.opacity = '1';
+        t.style.background  = ok ? 'rgba(80,180,120,0.18)' : 'rgba(220,80,80,0.18)';
+        t.style.border      = ok ? '1px solid rgba(80,180,120,0.4)' : '1px solid rgba(220,80,80,0.4)';
+        t.style.color       = ok ? '#a0f0c0' : '#ffaaaa';
+        clearTimeout(showToast._timer);
+        showToast._timer = setTimeout(() => { t.style.opacity = '0'; }, 4000);
+    }
+
+    async function handleContactSubmit(e) {
+        e.preventDefault();
+        const btn = document.getElementById('cf-submit');
+        btn.disabled = true;
+        btn.textContent = 'SENDING\u2026';
+
+        const payload = {
+            firstName : document.getElementById('cf-firstName').value.trim(),
+            lastName  : document.getElementById('cf-lastName').value.trim(),
+            email     : document.getElementById('cf-email').value.trim(),
+            subject   : document.getElementById('cf-subject').value,
+            message   : document.getElementById('cf-message').value.trim(),
+        };
+
+        try {
+            const res  = await fetch(CONTACT_API, {
+                method  : 'POST',
+                headers : { 'Content-Type': 'application/json' },
+                body    : JSON.stringify(payload),
+            });
+            const data = await res.json();
+
+            if (res.ok && data.success) {
+                showToast('\u2713 ' + data.message, true);
+                document.getElementById('contactForm').reset();
+            } else {
+                const msg = data.errors?.[0]?.msg || data.message || 'Something went wrong.';
+                showToast('\u2717 ' + msg, false);
+            }
+        } catch (_) {
+            showToast('\u2717 Could not reach server. Is it running?', false);
+        } finally {
+            btn.disabled = false;
+            btn.textContent = 'SEND MESSAGE \u2192';
+        }
+    }
+    </script>
+
+</body>
+
+</html>>
